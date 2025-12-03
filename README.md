@@ -69,6 +69,6 @@ Dropout Layer
 Layer 2: Linear(512 → 216) + ReLU
 Dropout Layer
 Layer 3: Linear(216 → 1)  # Output: Predicted TOTAL_POINTS
-Loss: MSELoss
+Loss: Huber Loss
 Optimizer: Adam (lr=0.001)
 Epochs: 50
